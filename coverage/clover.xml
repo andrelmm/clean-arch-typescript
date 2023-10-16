@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1697420472360" clover="3.2.0">
+  <project timestamp="1697420472360" name="All files">
+    <metrics statements="88" coveredstatements="77" conditionals="65" coveredconditionals="55" methods="37" coveredmethods="30" elements="190" coveredelements="162" complexity="0" loc="88" ncloc="88" packages="5" files="8" classes="8"/>
+    <package name="adapter">
+      <metrics statements="6" coveredstatements="6" conditionals="7" coveredconditionals="6" methods="2" coveredmethods="2"/>
+      <file name="ParkingLotAdapter.js" path="/Users/andremello/Documents/SCM/github/andremello/clean-arch-typescript/dist/src/adapter/ParkingLotAdapter.js">
+        <metrics statements="6" coveredstatements="6" conditionals="7" coveredconditionals="6" methods="2" coveredmethods="2"/>
+        <line num="2" count="1" type="cond" truecount="3" falsecount="0"/>
+        <line num="3" count="1" type="cond" truecount="3" falsecount="1"/>
+        <line num="5" count="1" type="stmt"/>
+        <line num="6" count="1" type="stmt"/>
+        <line num="9" count="3" type="stmt"/>
+        <line num="12" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="core.entity">
+      <metrics statements="17" coveredstatements="16" conditionals="4" coveredconditionals="3" methods="4" coveredmethods="4"/>
+      <file name="ParkedCar.js" path="/Users/andremello/Documents/SCM/github/andremello/clean-arch-typescript/dist/src/core/entity/ParkedCar.js">
+        <metrics statements="7" coveredstatements="6" conditionals="2" coveredconditionals="1" methods="1" coveredmethods="1"/>
+        <line num="2" count="1" type="stmt"/>
+        <line num="5" count="1" type="cond" truecount="1" falsecount="1"/>
+        <line num="6" count="0" type="stmt"/>
+        <line num="7" count="1" type="stmt"/>
+        <line num="8" count="1" type="stmt"/>
+        <line num="9" count="1" type="stmt"/>
+        <line num="12" count="1" type="stmt"/>
+      </file>
+      <file name="ParkingLot.js" path="/Users/andremello/Documents/SCM/github/andremello/clean-arch-typescript/dist/src/core/entity/ParkingLot.js">
+        <metrics statements="10" coveredstatements="10" conditionals="2" coveredconditionals="2" methods="3" coveredmethods="3"/>
+        <line num="2" count="1" type="stmt"/>
+        <line num="5" count="3" type="stmt"/>
+        <line num="6" count="3" type="stmt"/>
+        <line num="7" count="3" type="stmt"/>
+        <line num="8" count="3" type="stmt"/>
+        <line num="9" count="3" type="stmt"/>
+        <line num="12" count="1" type="stmt"/>
+        <line num="13" count="1" type="cond" truecount="2" falsecount="0"/>
+        <line num="16" count="1" type="stmt"/>
+        <line num="19" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="core.usecase">
+      <metrics statements="26" coveredstatements="23" conditionals="22" coveredconditionals="18" methods="13" coveredmethods="11"/>
+      <file name="EnterParkingLot.js" path="/Users/andremello/Documents/SCM/github/andremello/clean-arch-typescript/dist/src/core/usecase/EnterParkingLot.js">
+        <metrics statements="22" coveredstatements="19" conditionals="22" coveredconditionals="18" methods="11" coveredmethods="9"/>
+        <line num="2" count="1" type="cond" truecount="3" falsecount="0"/>
+        <line num="3" count="2" type="cond" truecount="1" falsecount="1"/>
+        <line num="4" count="1" type="cond" truecount="2" falsecount="0"/>
+        <line num="5" count="2" type="stmt"/>
+        <line num="6" count="0" type="stmt"/>
+        <line num="7" count="3" type="cond" truecount="2" falsecount="0"/>
+        <line num="8" count="1" type="cond" truecount="2" falsecount="0"/>
+        <line num="11" count="1" type="cond" truecount="3" falsecount="0"/>
+        <line num="12" count="1" type="cond" truecount="3" falsecount="1"/>
+        <line num="14" count="1" type="stmt"/>
+        <line num="15" count="1" type="stmt"/>
+        <line num="18" count="1" type="stmt"/>
+        <line num="21" count="1" type="stmt"/>
+        <line num="22" count="1" type="stmt"/>
+        <line num="23" count="1" type="stmt"/>
+        <line num="24" count="1" type="cond" truecount="1" falsecount="1"/>
+        <line num="25" count="0" type="stmt"/>
+        <line num="26" count="1" type="cond" truecount="1" falsecount="1"/>
+        <line num="27" count="0" type="stmt"/>
+        <line num="28" count="1" type="stmt"/>
+        <line num="29" count="1" type="stmt"/>
+        <line num="33" count="1" type="stmt"/>
+      </file>
+      <file name="GetParkingLot.js" path="/Users/andremello/Documents/SCM/github/andremello/clean-arch-typescript/dist/src/core/usecase/GetParkingLot.js">
+        <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
+        <line num="2" count="1" type="stmt"/>
+        <line num="5" count="1" type="stmt"/>
+        <line num="8" count="2" type="stmt"/>
+        <line num="11" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="infra.database">
+      <metrics statements="7" coveredstatements="7" conditionals="7" coveredconditionals="6" methods="1" coveredmethods="1"/>
+      <file name="Database.js" path="/Users/andremello/Documents/SCM/github/andremello/clean-arch-typescript/dist/src/infra/database/Database.js">
+        <metrics statements="7" coveredstatements="7" conditionals="7" coveredconditionals="6" methods="1" coveredmethods="1"/>
+        <line num="2" count="1" type="cond" truecount="3" falsecount="0"/>
+        <line num="3" count="1" type="cond" truecount="3" falsecount="1"/>
+        <line num="5" count="1" type="stmt"/>
+        <line num="6" count="1" type="stmt"/>
+        <line num="7" count="1" type="stmt"/>
+        <line num="8" count="1" type="stmt"/>
+        <line num="16" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="infra.repository">
+      <metrics statements="32" coveredstatements="25" conditionals="25" coveredconditionals="22" methods="17" coveredmethods="12"/>
+      <file name="ParkingLotMemoryRepository.js" path="/Users/andremello/Documents/SCM/github/andremello/clean-arch-typescript/dist/src/infra/repository/ParkingLotMemoryRepository.js">
+        <metrics statements="14" coveredstatements="8" conditionals="7" coveredconditionals="6" methods="5" coveredmethods="2"/>
+        <line num="2" count="1" type="cond" truecount="3" falsecount="0"/>
+        <line num="3" count="2" type="cond" truecount="3" falsecount="1"/>
+        <line num="5" count="1" type="stmt"/>
+        <line num="6" count="1" type="stmt"/>
+        <line num="7" count="1" type="stmt"/>
+        <line num="10" count="1" type="stmt"/>
+        <line num="17" count="1" type="stmt"/>
+        <line num="20" count="0" type="stmt"/>
+        <line num="21" count="0" type="stmt"/>
+        <line num="22" count="0" type="stmt"/>
+        <line num="23" count="0" type="stmt"/>
+        <line num="26" count="0" type="stmt"/>
+        <line num="27" count="0" type="stmt"/>
+        <line num="30" count="1" type="stmt"/>
+      </file>
+      <file name="ParkingLotSQLRepository.js" path="/Users/andremello/Documents/SCM/github/andremello/clean-arch-typescript/dist/src/infra/repository/ParkingLotSQLRepository.js">
+        <metrics statements="18" coveredstatements="17" conditionals="18" coveredconditionals="16" methods="12" coveredmethods="10"/>
+        <line num="2" count="1" type="cond" truecount="3" falsecount="0"/>
+        <line num="3" count="4" type="cond" truecount="1" falsecount="1"/>
+        <line num="4" count="4" type="cond" truecount="2" falsecount="0"/>
+        <line num="5" count="4" type="stmt"/>
+        <line num="6" count="0" type="stmt"/>
+        <line num="7" count="8" type="cond" truecount="2" falsecount="0"/>
+        <line num="8" count="4" type="cond" truecount="2" falsecount="0"/>
+        <line num="11" count="1" type="cond" truecount="3" falsecount="0"/>
+        <line num="12" count="2" type="cond" truecount="3" falsecount="1"/>
+        <line num="14" count="1" type="stmt"/>
+        <line num="15" count="1" type="stmt"/>
+        <line num="16" count="1" type="stmt"/>
+        <line num="19" count="3" type="stmt"/>
+        <line num="20" count="3" type="stmt"/>
+        <line num="21" count="3" type="stmt"/>
+        <line num="25" count="1" type="stmt"/>
+        <line num="26" count="1" type="stmt"/>
+        <line num="30" count="1" type="stmt"/>
+      </file>
+    </package>
+  </project>
+</coverage>
